@@ -1,0 +1,16 @@
+/* Localized presentation controls. Consistent with existing NOVA visual system. */
+.nova-lang-top{display:flex;align-items:center;gap:9px;z-index:4;min-width:180px}
+.nova-lang-label{font-size:10px;font-weight:800;color:#79b5d2;letter-spacing:.09em;white-space:nowrap}
+.nova-lang-field{display:flex;align-items:center;gap:8px;border:1px solid rgba(96,209,235,.38);background:linear-gradient(135deg,rgba(39,85,119,.75),rgba(14,33,70,.7));border-radius:12px;padding:7px 11px;box-shadow:inset 0 1px rgba(255,255,255,.06)}
+.nova-lang-field select{max-width:200px;background:transparent;color:#edf9ff;border:0;outline:none;font-weight:700;font-size:13px;font-family:inherit;cursor:pointer;appearance:none;min-width:106px}
+.nova-lang-field select option{background:#142743;color:#fff}
+.nova-lang-globe{font-size:20px;color:#61e3d5}.nova-lang-arrow{color:#70b7d2}
+.nova-lang-welcome{display:flex;justify-content:space-between;gap:15px;align-items:center;border:1px solid rgba(79,227,218,.26);border-radius:16px;padding:14px 16px;background:rgba(31,82,117,.24);margin:16px 0}
+.nova-lang-copy{display:flex;flex-direction:column;gap:6px;max-width:390px}.nova-lang-copy strong{color:#fff;font-size:15px}.nova-lang-copy span{color:#b7cfe0;font-size:12px;line-height:1.5}
+.nova-lang-welcome>div:last-child{display:flex;flex-direction:column;gap:5px}
+.nova-spoken-language{font-size:10px;letter-spacing:.04em;text-transform:uppercase;font-weight:800;color:#a5f3e1;padding:6px 9px;border-radius:20px;border:1px solid rgba(96,223,208,.25);background:rgba(31,103,109,.2);white-space:nowrap}
+#canvas-scene[dir=rtl]{text-align:right}#canvas-scene[dir=rtl] button{text-align:inherit}
+@media(max-width:1100px){.nova-lang-top .nova-lang-label{display:none}.nova-lang-top{min-width:0}}
+@media(max-width:710px){.nova-lang-welcome{flex-wrap:wrap}.nova-lang-top .nova-lang-field select{max-width:120px;min-width:90px}.nova-lang-field{padding:6px}.nova-spoken-language{display:none}}
+
+.nova-lang-top{flex-wrap:wrap}.nova-slide-option{font-size:11px;color:#b8d9e5;display:flex;gap:6px;align-items:center;white-space:nowrap;cursor:pointer}.nova-slide-option input{accent-color:#55e1cb}.nova-slide-option small{font-size:10px;opacity:.6}.nova-lang-welcome .nova-slide-option{margin-top:7px}

@@ -1,0 +1,12 @@
+{
+  "name": "nova-academy-multilingual-render",
+  "private": true,
+  "version": "7.0.0",
+  "description": "Adult-only NOVA Class 3 demonstration with unified OpenAI narration, dialogue, voice, transcription and optional paid image generation",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
